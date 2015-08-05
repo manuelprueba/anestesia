@@ -123,7 +123,7 @@ function listarDoctores($Conexion_ID, $Where){
 	
   $query .= " bactivo = 1 order by sapellido ";
 
-//ejecutamos la consulta
+/* Se ejecuta la consulta */
 
   $this->Consulta_ID = @mysql_query($query, $Conexion_ID);
 
