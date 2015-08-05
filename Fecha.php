@@ -12,6 +12,8 @@ function formatoDbFecha($fecha){
   return $anio."-".$mes."-".$dia; 
 }  
 
+/*Linea que se agrega en arreglos-varios */
+
 }
 
 ?>
