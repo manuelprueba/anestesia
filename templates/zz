@@ -1,0 +1,45 @@
+
+<!--
+  {section name=linea start=0 loop=4 step=1}
+    <tr class={$field.clase}>
+      <td><select name="id_intervencion_{$smarty.section.linea.index}" id="id_intervencion_{$smarty.section.linea.index}"> 
+          </select>
+      </td>
+      <td>
+        <div>
+	  Type your county:
+	  <br />
+          <input type="text" size="30" value="" id="inputString" onkeyup="lookup(this.value);" onblur="fill();" />
+	</div>
+        <div class="suggestionsBox" id="suggestions" style="display: none;">
+	  <img src="upArrow.png" style="position: relative; top: -12px; left: 30px;" alt="upArrow" />
+	  <div class="suggestionList" id="autoSuggestionsList"> &nbsp; </div>
+        </div>
+      </td>
+      <td><input type="text" name="nmonto_{$smarty.section.linea.index}" size="17" id="nmonto_{$smarty.section.linea.index}"></td>
+      <td><input type="text" name="sobservacion_{$smarty.section.linea.index}" size="40" id="sobservacion_{$smarty.section.linea.index}"></td>
+    <!--<td align="center"><input type="button" name="botonx1" value="crear fila" onClick="agregarFila();"></td>-->
+    </tr>
+  {/section}
+-->
+
+
+
+  <!--{section name=linea start=0 loop=4 step=1}-->
+    <tr class={$field.clase}>
+      <!--<td><input type="text" name="criterio_{$smarty.section.linea.index}" id="criterio_{$smarty.section.linea.index}">-->
+      <td><input type="text" name="criterio_0" id="criterio_0">
+      <td>
+        <!--<select name="id_intervencion_{$smarty.section.linea.index}" id="id_intervencion_{$smarty.section.linea.index}"> -->
+        <select name="id_intervencion_0" id="id_intervencion_0"> 
+        </select>
+      </td>
+      <td>
+      </td>
+      <!--<td><input type="text" name="nmonto_{$smarty.section.linea.index}" size="17" id="nmonto_{$smarty.section.linea.index}"></td>-->
+      <td><input type="text" name="nmonto_0" size="17" id="nmonto_0"></td>
+      <!--<td><input type="text" name="sobservacion_{$smarty.section.linea.index}" size="40" id="sobservacion_{$smarty.section.linea.index}"></td>-->
+      <td><input type="text" name="sobservacion_0" size="40" id="sobservacion_0"></td>
+      <td align="center"><input type="button" name="botonx1" value="crear fila" onClick="agregarFila();"></td>
+    </tr>
+  <!--{/section}-->

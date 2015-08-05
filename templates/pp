@@ -1,0 +1,9 @@
+
+
+
+  var scorreo = form.scorreo.value;
+  if (scorreo){
+    if (!scorreo.match(/^[\w\-\+\._]+\@[a-zA-Z0-9][-a-zA-Z0-9\.]*\.[a-zA-Z]+$/){
+      alertstr += '- El valor indicado en "Correo electrónico" debe ser una dirección de correo valida\n';
+    }
+  }
