@@ -1,6 +1,7 @@
 {literal}
 <script language="JavaScript" src="js/calendar_eu.js"></script> 
 <script language="javascript">
+
 function runMode( accion, Id ){
   forma = document.getElementById('fintervencion');
 
@@ -14,7 +15,6 @@ function runMode( accion, Id ){
   else{
     forma.submit();
   }
-  
 }
 
 function validate_fintervencion (form) {
